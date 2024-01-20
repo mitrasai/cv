@@ -153,7 +153,9 @@ h1, h2, h3, h4, h5, h6{
         justify-content: center;
     }
 
-        .da-5, .da-6, .da-7{
-        width: 300px;
+    .da-5,
+    .da-6,
+    .da-7{
+        width: 400px;
     }
 }
