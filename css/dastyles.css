@@ -63,12 +63,12 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .da-7{
-    width: 400px;
+    width: 200px;
 }
 
 .da-6{
-    width: 400px;
-    height: 250px;
+    width: 200px;
+    height: 100px;
 }
 
 .profit-items{
@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .da-5{
-    width: 600px;
+    width: 400px;
 }
 
 /* aggregate profit */
@@ -152,17 +152,4 @@ h1, h2, h3, h4, h5, h6{
     .social {
         justify-content: center;
     }
-
-    .da-7{
-        width:100px;
-    }
-
-    .da-6{
-        width:100px;
-    }
-
-    .da-5{
-        width:100px;
-    }
-
 }
