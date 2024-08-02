@@ -1,311 +1,300 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sai Mithra Akuthota</title>
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Montserrat:wght@400&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> -->
-
-  <!-- CSS Stylesheets -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="images/favicon.ico">
-
-  <!-- Font Awesome -->
-  <script defer src="https://use.fontawesome.com/releases/v6.5.1/js/all.js"></script>
-
-  <!-- Bootstrap Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mithra A. - Aspiring Software Engineer</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v6.5.1/js/all.js"></script>
 </head>
 
 <body>
 
-  <section id="title">
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">mithra</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link item-nav" href="https://mitrasai.github.io/social-icons/ ">Home</a>
-            </li>
-            <li class="nav-item item-nav">
-              <a class="nav-link" href="">About Me</a>
-            </li>
-            <li class="nav-item dropdown item-nav">
-                <a class="nav-link" href="#portfolio">
-                  Portfolio
-                </a>
-            </li>
-            <li class="nav-item item-nav">
-              <a class="nav-link" href="#footer">Contact</a>
-            </li>
-          </ul>
+    <!-- Header Section -->
+    <header class="header-section">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+                <a class="navbar-brand" href="#">Sai Mithra A</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Sai Mithra A</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-me">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-me">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://leetcode.com/u/SaiMithra/">LeetCode Profile</a>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+            </nav>
         </div>
-      </div>
-    </nav>
+    </header>
 
-    <div class="container-fluid mass-body mt-4">
-
-      <!-- Title -->
-
-      <div class="row">
-        <div class="col-lg-6 title-img">
-          <img class="title-image" src="images/Mithra.png" alt="mithra-mockup">
-        </div>
-
-        <div class="col-lg-6">
-          <h1>Hello,</h1>
-          <p class="about-para">
-            I'm <span style="color: #000;">Sai Mithra</span>, Computer Science Graduate ' 23 and I'm on eager to secure a challenging position as a 
-            Software Engineer.<br>
-            At age of ten I have started solving puzzles, that is also how I solve problems: As for 
-            me it is a logic that I want to find. It excites me to discover new logics or patterns.<br>
-            I've been learning how to code since graduation until this very moment. 
-            I've done projects on Analysis and Analytics. So, I know how to turn complex problems into 
-            understandable language.
-          </p>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <section id="features" class="features-item">
-
-    <!-- Features -->
-    <h2 style="text-align: center;">Technical Skills</h2>
-
-  <div class="container-fluid item-features">
-
-    <div class="row">
-      <div class="col-lg-4 feature-item">
-        <div class="feature-img">
-          <i class="fa-brands fa-java fa-4x feature-img2"></i><br>
-        </div>
-        <h3 class="feature-head mt-2"> 
-          Java (J2SE)
-        </h3>
-        <p class="feature-description mt-2">
-          Good knowledge on OOP concepts (i.e., Polymorphism, Encapsulation, Inheritance and Abstraction). 
-          And has good knowledge on Method Overloading and Overriding.
-        </p>
-      </div>
-
-      <div class="col-lg-4 feature-item">
-        <div class="feature-img">
-          <i class="fa-solid fa-database fa-4x feature-img2"></i><br> 
-        </div>
-        <h3 class="feature-head mt-2">
-          Database (SQL)
-        </h3>
-        <p class="feature-description mt-2">
-          Hands-on Microsoft SQL Server, for efficient data management. 
-          Strong in writing queries to retreive data from database and has good knowledge on Normalization. 
-          Good in DDL, DML, TCL commands.
-        </p>
-      </div>
-
-      <div class="col-lg-4 feature-item">
-        <div class="feature-img">
-          <i class="fa-solid fa-code fa-4x feature-img2"></i><br>
-        </div>
-        <h3 class="feature-head mt-2">
-          Front-end development
-        </h3>
-        <p class="feature-description mt-2">
-          Designed and created various responsive websites which is visually appealing and optimized for 
-          desktops and smartphones using latest technologies.
-        </p>
-      </div>
-    </div>
-  </div>
-
-</section>
-
-
-  <!-- Portfolio -->
-
-  <section id="portfolio" class="portfolio-item">
-
-    <!-- Features -->
-    <h2 style="text-align: center; text-decoration: underline;">Portfolio</h2>
-
-  <div class="container-fluid item-features">
-
-    <div class="row">
-      <div class="col-lg-6 portfolio-item">
-        <div class="feature-img">
-          <img class="portfolio-image" src="images/dashboard/dashboard-2.png" alt="dashboard-img"> <br>
-          <em>Dashboard</em>
-        </div>
-        <p class="portfolio-desciption mt-3">
-          Dashboard enable users to visualize the most recent results in an interactive manner, for example performance 
-          of important KPI's. By clicling 
-          below, you can able to examine trends and patterns by yourself. <br>
-          (<a href="https://public.tableau.com/app/profile/sai.mithra.a/vizzes">example</a>)
-        </p>
-      </div>
-
-      <div class="col-lg-6 portfolio-item">
-        <div class="feature-img">
-          <img class="portfolio-image" src="images/analytics/recursive-prediction.png" alt="dashboard-img"> <br>
-          <em>Data analytics</em>
-        </div>
-        <p class="portfolio-desciption mt-2">
-          Able to get more value from past experiences data with prediction models and machine learning 
-          techniques, for example predicting the behaviour of trend in stocks.<br>
-          (<a href="datanalytics1.html">example</a>)
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <div class="container-fluid item-features">
-
-    <div class="row">
-      <div class="col-lg-6 portfolio-item portfolio-item3">
-        <div class="feature-img">
-          <img class="portfolio-image" src="images/datanalysis/data-analysis.jpg" alt="dashboard-img" height="200"> <br>
-          <em>Data analysis</em>
-        </div>
-        <p class="portfolio-desciption mt-2">
-          Created and produced comprehensive data analyis for an organizational usages.
-          Results, trends, highlighting key metrics and recommendations are clearly presented 
-          in report.<br>
-          (<a href="dataanalysis.html">example</a>)
-        </p>
-      </div>
-
-      <div class="col-lg-6 portfolio-item portfolio-item4">
-        <div class="feature-img">
-          <img class="portfolio-image" src="images/web developer.jpg" alt="portfolio-img4"> <br>
-          <em>Front-end web developer</em>
-        </div>
-        <p class="portfolio-desciption mt-2">
-          As a web developer, I have created and designed various responsive web pages which are optimized 
-          for desktops and smartphones. Also, designed a web page for my project in graduated college.<br>
-          (<a href="dataanalysis.html">example</a>)
-        </p>
-      </div>
-    </div>
-  </div>
-
-</section>
-
-
-  <!-- Why Hire Me -->
-
-  <section id="hire">
-
-    <h2>Why Hire Me &#x1F914;</h2>
-
-    <div class="row hire-description">
-      <div class="col-lg-12">
-
-        <div class="hire-body">
-          <p>Good at problem-solving and attention to detail.</p>
-          <p>Qucik learner, eager to stay updated on emerging technologies.</p>
-          <p>Effective team player with excellent communication and collaboration abilities.</p>
-          <p>Because of my relevant skills and passion for the industry.</p>
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- Get In Touch -->
-
-  <section id="git">
-
-    <h2 style="text-decoration: underline;">Get In Touch</h2>
-
-    <div class="row git-description">
-      <div class="col-lg-12">
-
-        <div class="git-body">
-          <p>
-            I'm excited about the prospect of connecting with industry professionals, <br>
-            fellow developers and potential employers.
-          </p>
-          <p>Feel free to explore my portfolio and get in touch if you see potential <br>
-            for collaboration or if you have exciting job opportunities.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <a href="https://www.linkedin.com/in/sai-mithra-a-abab05249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="btn-class">
-      <button type="button" class="btn btn-outline-dark mt-2" >Contact Me!</button>
-    </a>
-
-  </section>
-
-
-  <!-- Footer -->
-
-  <footer id="footer">
-
-    <div class="container-fluid item-footers">
-
-      <div class="row">
-        <div class="col-lg-6 footer-item">
-          <p>
-            Sai mithra Akuthota
-            <br>
-            <span class="e-mail" style="cursor: pointer;">mitraakuthota@gmail.com</span>
-            <br>
-            <br>
-            Location: 
-            <br>
-            Hanumakonda, Warangal, Telangana - India
-            <br>
-          </p>
-        </div>
-
-        <div class="col-lg-6 footer-item">
-          <div class="social">
-            <div class="social-icon1">
-              <a id="linkedin-btn" class="social-icon" target="_blank">
-                <i class="fa-brands fa-linkedin fa-3x"></i>
-              </a>
+    <!-- Intro Section -->
+    <section class="about-section py-3" id="home">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mithra-img">
+                        <img src="images/mitra.png" class="img-fluid  mb-4" alt="My Photo">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="section-title mb-3">Hi, I'm Sai Mithra</h2>
+                        <p class="section-description mb-4">
+                            Welcome! I'm an aspiring software engineer with a strong passion for clean and efficient code. My keen eye for design allows me to understand the intitution behind problem. I am highly adaptable, always eager to learn new things and experiment them. My goal is to secure a position where I can contribute my skills and grow as a professional.
+                        </p>
+                        <div class="connect-container">
+                            <div class="connect">
+                                <a href="https://www.linkedin.com/in/sai-mithra">
+                                    <button class="btn">LinkedIn</button>
+                                </a>
+                            </div class="connect">
+                            <div>
+                                <a href="https://github.com/mitrasai">
+                                    <button class="btn">GitHub</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+    </section>
 
-            <div class="social-icon2">
-              <a id="github-btn" class="social-icon" target="_blank">
-                <i class="fa-brands fa-square-github fa-3x"></i>
-              </a>
+    <!-- About Me Section -->
+    <section class="about-me-section py-3" id="about-me">
+            <div class="about-me-container">
+                <h2 class="section-me-title mb-3 text-center">About Me</h2>
+                <p class="section-me-description mb-4">
+                    Greetings! I'm Sai Mithra Akuthota, Computer Science Graduate'23 and I'm on eager to secure a challenging position as a Software Engineer. My journey began with a passion for solving problems, which led me to work on various projects, including website building. I am committed to staying updated on the latest trends and technologies. From HTML and CSS, JavaScript to Java, I've honed my skills to deliver clean code with seamless functionality. As a fresher, I am enthusiastic about contributing my skills and growing as a professional in a dynamic environment.
+                </p>
             </div>
+    </section>
 
-            <div class="social-icon3">
-              <a id="insta-btn" class="social-icon" target="_blank">
-                <i class="fa-brands fa-instagram fa-3x"></i>
-              </a>
+    <!-- What I Do Best -->
+    <section class="services-section py-5">
+        <div class="container">
+            <h2 class="section-title mb-4 text-center">What I Do Best</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="service-item text-center">
+                        <img src="images/Data Analysis.jpg" alt="Service 1" class="mb-3 img1">
+                        <h3>Data Analysis</h3>
+                        <p>Creating visually appealing reports that provide insights.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-item text-center">
+                        <img src="images/Web Development.jpg" alt="Service 2" class="mb-3 img">
+                        <h3>Web Development</h3>
+                        <p>Building functional and responsive websites using HTML, CSS, JavaScript, and Hands on with frameworks.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-item text-center">
+                        <img src="images/Java.png" alt="Service 3" class="mb-3">
+                        <h3>Java (J2SE)</h3>
+                        <p>Good understanding of OOP concepts, Data Structures, JDBC, Hands on with Spring Framework.</p>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
+    </section>
 
-    <p class="copy-right">© 2023 Sai mithra Akuthota</p>
+    <!-- Skills Section -->
+    <section class="skill-section py-5">
+        <div class="container">
+            <h2 class="skill-title mb-4 text-center">Skills</h2>
+            <div class="row">
+                <div class="col-md-4 col-6 mb-4">
+                    <div class="skill-item text-center">
+                        <img src="images/CSS.jpg" alt="Skill 1" class="mb-3 img1">
+                        <p>CSS</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 mb-4">
+                    <div class="skill-item text-center">
+                        <img src="images/HTML.jpg" alt="Skill 2" class="mb-3 img">
+                        <p>HTML</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 mb-4">
+                    <div class="skill-item text-center">
+                        <img src="images/JavaScript.jpg" alt="Skill 2" class="mb-3 img">
+                        <p>JavaScript</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 mb-4">
+                    <div class="skill-item text-center">
+                        <img src="images/Java.png" alt="Skill 3" class="mb-3">
+                        <p>Java (J2SE)<p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 mb-4">
+                    <div class="skill-item text-center">
+                        <img src="images/Spring.jpg" alt="Skill 3" class="mb-3">
+                        <p>Spring FrameWork<p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 mb-4">
+                    <div class="skill-item text-center">
+                        <img src="images/My SQL.png" alt="Skill 3" class="mb-3">
+                        <p>Database (My SQL)<p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  </footer>
+    <!-- Portfolio Section -->
+    <section class="portfolio-section py-5" id="projects">
+        <div class="container">
+            <h2 class="section-title mb-4 text-center">My Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/Project1.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Patient Medication Analytics System</h5>
+                            <p class="card-text">This is system assist the doctors in the clinics to give right medication dosages to patients based on the diagnosis they establish. By Mosteller formula, to compute right dosage quantity to improve drug efficiency and minimize drug toxicity in patients.
+                            </p>
+                            <p>Stack: Java</p>
+                            <a href="https://github.com/mitrasai/projects-java">
+                                <button class="btn">View Project</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/Data Analysis.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Analysis Using Power BI</h5>
+                            <p class="card-text">This project showcases how to handle various data sources, perform comprehensive data analysis, create interactive visualization reports using Power BI. It highligths data cleaning, preprocessing techniques. Also, check this -> <a href="https://public.tableau.com/app/profile/sai.mithra.a/vizzes">(example)</a>
+                            </p>
+                            <p>Stack: Microsoft Power BI, SQL Server, Excel</p>
+                            <a href="https://github.com/mitrasai/Data-Analysis-Visualization-PowerBI" >
+                                <button class="btn">View Project</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/myntra-clone.png" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Myntra Clone</h5>
+                            <p class="card-text">This project demonstrates my ability to create a fully functional e-commerce website from scratch using only HTML, CSS, and JavaScript. By cloning the Myntra platform, I have showcased my skills in front-end development, responsive design, and user interface creation.</p>
+                            <p>Stack: HTML5, CSS3, JavaScript</p>
+                            <a href="https://github.com/mitrasai/social-icons">
+                                <button class="btn">View Project</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<script src="index.js"></script>
+    <!-- Contact Me Section -->
+    <section class="contact-section py-5" id="contact-me">
+        <h2 class="section-title mb-4 contact-intro">Let's Connect</h2>
+        <div class="container-fluid item-footers">
+
+            <div class="row">
+              <div class="col-lg-6 contact-intro">
+                <p>
+                  Sai mithra Akuthota
+                  <br>
+                  <span class="e-mail" style="cursor: pointer;">mitraakuthota@gmail.com</span>
+                  <br>
+                  <br>
+                  Location: 
+                  <br>
+                  Hanumakonda, Warangal, Telangana - India
+                  <br>
+                </p>
+              </div>
+      
+              <div class="col-lg-6 ">
+                <div class="social flex-container">
+                  <div class="social-icon1">
+                    <a href="https://www.linkedin.com/in/sai-mithra" id="linkedin-btn" class="social-icon" target="_blank">
+                      <i class="fa-brands fa-linkedin fa-3x"></i>
+                    </a>
+                  </div>
+      
+                  <div class="social-icon2">
+                    <a href="https://github.com/mitrasai" id="github-btn" class="social-icon" target="_blank" style="color:#050505">
+                      <i class="fa-brands fa-square-github fa-3x"></i>
+                    </a>
+                  </div>
+      
+                  <div class="social-icon3">
+                    <a href="https://public.tableau.com/app/profile/sai.mithra.a/vizzes" id="tableau-btn" class="social-icon" target="_blank">
+                        <img class="tableau-img" src="images/tableau.png" alt="tableau-img">
+                    </a>
+                  </div>
+
+                  <div class="social-icon3">
+                    <a href="https://leetcode.com/u/SaiMithra/" id="leetcode-btn" class="social-icon" target="_blank">
+                        <img class="leetcode-img" src="images/leetcode.png" alt="leetcode-image">
+                    </a>
+                  </div>
+
+                  <div class="social-icon3">
+                    <a href="https://www.geeksforgeeks.org/user/saimithra/" id="gfg-btn" class="social-icon" target="_blank">
+                        <img class="leetcode-img" src="images/gfg.jpeg" alt="gfg-image">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 footer-para">
+                        <p>&copy; 2024 Sai Mithra Akuthota Portfolio. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="footer-links text-md-end">
+                            <li><a href="https://leetcode.com/u/SaiMithra/">LeedCode</a></li>
+                            <li><a href="https://www.geeksforgeeks.org/user/saimithra/">GeekforGeeks</a></li>
+                            <li><a href="https://www.naukri.com/code360/profile/saimithra">Code360</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </footer>
+   
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
