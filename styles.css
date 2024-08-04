@@ -157,11 +157,6 @@ body {
     .service-item p {
         font-size: 1rem;
     }
-
-    .service-item img {
-        width: 100px;
-        border-radius: 10px;
-    }
 }
 
 /* Skills Section */
