@@ -10,7 +10,8 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
     <!-- Font Awesome -->
-    <script defer src="https://use.fontawesome.com/releases/v6.5.1/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<!--     <script defer src="https://use.fontawesome.com/releases/v6.5.1/js/all.js"></script> -->
 </head>
 
 <body>
@@ -62,17 +63,21 @@
                     <div class="col-md-6">
                         <h2 class="section-title mb-3">Hi, I'm Sai Mithra</h2>
                         <p class="section-description mb-4">
-                            Welcome! I'm an aspiring software engineer with a strong passion for clean and efficient code. My keen eye for design allows me to understand the intitution behind problem. I am highly adaptable, always eager to learn new things and experiment them. My goal is to secure a position where I can contribute my skills and grow as a professional.
+                            <span id="element"></span>
                         </p>
                         <div class="connect-container">
                             <div class="connect">
-                                <a href="https://www.linkedin.com/in/sai-mithra">
-                                    <button class="btn">LinkedIn</button>
+                                <a href="https://www.linkedin.com/in/sai-mithra" target="_blank">
+                                    <button class="btn">
+                                        <i class="fa-brands fa-linkedin fa-fade fa-lg" style="margin-right: 5px;"></i>LinkedIn
+                                    </button>
                                 </a>
-                            </div class="connect">
-                            <div>
-                                <a href="https://github.com/mitrasai">
-                                    <button class="btn">GitHub</button>
+                            </div>    
+                            <div class="connect">
+                                <a href="file:///C:/Users/sai%20mithra/Dropbox/PC/Downloads/Sai%20Mithra%20Akuthota%20-%20Resume.pdf" download="Sai_Mithra_Resume" target="_blank">
+                                    <button class="btn">
+                                        <i class="fa-solid fa-download fa-bounce" style="margin-right: 5px;"></i>Resume
+                                    </button>
                                 </a>
                             </div>
                         </div>
@@ -176,11 +181,15 @@
                         <img src="images/Project1.jpg" class="card-img-top" alt="Project 1">
                         <div class="card-body">
                             <h5 class="card-title">Patient Medication Analytics System</h5>
-                            <p class="card-text">This is system assist the doctors in the clinics to give right medication dosages to patients based on their diagnosis, computes right dosage quantity to enhance drug efficiency and minimize drug toxicity in patients. Additionally, this system keeps track of patient details, allowing doctors to insert new records and update existing ones seamlessly.
+                            <p class="card-text">
+                                This is system assist the doctors in the clinics to give right medication dosages to patients based on their diagnosis, computes right dosage quantity to enhance drug efficiency and minimize drug toxicity in patients. Additionally, this system keeps track of patient details, allowing doctors to insert new records and update existing ones seamlessly.
                             </p>
                             <p>Stack: Java, MySQL, JDBC</p>
                             <a href="https://github.com/mitrasai/projects-java">
-                                <button class="btn">View Project</button>
+                                <button class="btn">
+                                    <i class="fa-solid fa-link fa-shake" style="margin-right: 2px;"></i>
+                                    View Project
+                                </button>
                             </a>
                         </div>
                     </div>
@@ -194,7 +203,10 @@
                             </p>
                             <p>Stack: Microsoft Power BI, SQL Server, Excel</p>
                             <a href="https://github.com/mitrasai/Data-Analysis-Visualization-PowerBI" >
-                                <button class="btn">View Project</button>
+                                  <button class="btn">
+                                    <i class="fa-solid fa-link fa-shake" style="margin-right: 2px;"></i>
+                                    View Project
+                                </button>
                             </a>
                         </div>
                     </div>
@@ -207,7 +219,10 @@
                             <p class="card-text">This project demonstrates my ability to create a fully functional e-commerce website from scratch using only HTML, CSS, and JavaScript. By cloning the Myntra platform, I have showcased my skills in front-end development, responsive design, and user interface creation.</p>
                             <p>Stack: HTML5, CSS3, JavaScript</p>
                             <a href="https://github.com/mitrasai/social-icons">
-                                <button class="btn">View Project</button>
+                                <button class="btn">
+                                    <i class="fa-solid fa-link fa-shake" style="margin-right: 2px;"></i>
+                                    View Project
+                                </button>
                             </a>
                         </div>
                     </div>
@@ -288,6 +303,8 @@
     <!-- Bootstrap JS and Popper.js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="index.js"></script>
 
 </body>
 
